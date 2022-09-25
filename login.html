@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./responsive.css">
+    <title>Login</title>
+</head>
+
+<body>
+    <div class="login">
+        <img class="login-logo"
+            src="./assests/Logo.png">
+        <form class="login-form">
+            <input class="login-form-text" type="text" placeholder="Username" />
+            <input class="login-form-text" type="password" placeholder="Password" />
+            <div class="logo-form-user-action">
+                <div>
+                    <input type="checkbox" class="login-form-radio" />
+                    <label>Remember password</label>
+                </div>
+                <a href="./index.html">Forgot password ?</a>
+            </div>
+            <button class="login-form-submit">Go to store</button>
+        </form>
+        <button class="login-google">
+            <img src="./assests/R.png" />
+            <a href=""> Login with Google</a>
+        </button>
+        <div class="login-create">
+            <a href="./register.html">Create account ?</a>
+        </div>
+    </div>
+</body>
+<script src="./validateForm.js"></script>
+
+</html>

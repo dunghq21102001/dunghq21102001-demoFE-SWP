@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./register.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./responsive.css">
+    <title>Register</title>
+</head>
+
+<body>
+    <div class="login">
+        <img class="login-logo" src="./assests/Logo.png">
+        <form id="registerForm" class="login-form" action="Homepage.html" method="get">
+            <div class="form-control">
+                <input id="register-userName" class="login-form-text" type="text" placeholder="Username" />
+                <small>Error Message</small>
+            </div>
+            <div class="form-control">
+                <input id="register-password1" class="login-form-text" type="password" placeholder="Password" />
+                <small>Error Message</small>
+            </div>
+            <div class="form-control">
+                <input id="register-password2" class="login-form-text" type="password" placeholder="Confirm password" />
+                <small>Error Message</small>
+            </div>
+            <div class="form-control">
+                <input id="register-phoneNumber" class="login-form-text" type="text" placeholder="Phone number" />
+                <small>Error Message</small>
+            </div>
+            <button class="login-form-submit">Join with us</button>
+        </form>
+        <div class="login-create">
+            <a href="./login.html">You already have account ?</a>
+        </div>
+    </div>
+</body>
+<script src="./validateForm.js"></script>
+
+</html>
